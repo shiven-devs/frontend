@@ -2,8 +2,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://weather-crop-advisory.onrender.com",
-  timeout: 10000,
+  baseURL: process.env.REACT_APP_API_PY_URL || "http://localhost:8000",
+  timeout: parseInt(process.env.REACT_APP_API_TIMEOUT) || 10000,
   headers: {
     "Content-Type": "application/json",
   },

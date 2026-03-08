@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://weather-crop-advisory-1.onrender.com/api",
+  baseURL: process.env.REACT_APP_API_BASE_URL || "http://localhost:5000/api",
 });
 
 // Add token to every request if present

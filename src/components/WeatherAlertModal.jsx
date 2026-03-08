@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const WEATHER_API = "https://weather-crop-advisory-production.up.railway.app";
+const WEATHER_API = process.env.REACT_APP_WEATHER_ALERT_API || "http://localhost:5000";
 
 const WeatherAlertModal = ({ onClose }) => {
   const [email, setEmail] = useState("");
