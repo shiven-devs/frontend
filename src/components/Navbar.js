@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { 
-  FaLeaf, 
+  
   FaUser, 
   FaSignOutAlt, 
   FaTachometerAlt,
   FaHistory,
-  FaHome,
   FaSeedling,
   FaCloudSun,
   FaBars,
   FaTimes
 } from "react-icons/fa";
-import { GiWheat } from "react-icons/gi";
+
 import styles from "./Navbar.module.css";
 
 const Navbar = ({ farmer, onLogout }) => {

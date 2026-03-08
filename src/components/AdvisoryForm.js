@@ -9,7 +9,6 @@ import {
   FaLeaf, 
   FaCalendarAlt, 
   FaMagic, 
-  FaSearch, 
   FaCheckCircle,
   FaExclamationTriangle,
   FaGlobeAmericas,

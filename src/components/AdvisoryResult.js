@@ -16,9 +16,7 @@ import {
   FaWater,
   FaWind,
   FaSun,
-  FaCloud,
-  FaSave,
-  FaShareAlt
+  
 } from "react-icons/fa";
 import { GiWheat, GiCorn, GiPlantRoots } from "react-icons/gi";
 import styles from "./AdvisoryResult.module.css";
