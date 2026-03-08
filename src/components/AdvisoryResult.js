@@ -12,7 +12,6 @@ import {
   FaTree,
   FaTractor,
   FaChevronRight,
-  FaFire,
   FaWater,
   FaWind,
   FaSun,
