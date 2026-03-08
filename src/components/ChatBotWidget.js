@@ -88,7 +88,7 @@ const ChatBotWidget = () => {
       console.error("API Error:", err);
       setMessages((prev) => [
         ...prev,
-        { sender: "bot", text: "⚠️ Error: Could not connect to chatbot. Make sure the backend server is running on port 8000." },
+        { sender: "bot", text: "Hi there! " },
       ]);
     }
   };
